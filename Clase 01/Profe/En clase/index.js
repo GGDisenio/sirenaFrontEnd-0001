@@ -167,9 +167,9 @@
 
 //    * New Constructor
 
-// function User (firstName) {
+// function User (firstName,isAdmin=false) {
 //   this.firstName = firstName
-//   var isAdmin = false
+//   var isAdmin = isAdmin
 
 //   this.myFunction = function () {
 //     return isAdmin
@@ -180,7 +180,7 @@
 //   }
 // }
 
-// var user = new User('Pachi')
+// var user = new User('Pachi',true)
 
 // user.isAdmin = true
 
